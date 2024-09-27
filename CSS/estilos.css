@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+}
+#principal
+{
+    display: block;
+    width: 500px;
+    margin: 50px auto;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #000000;
+    background: #00ff37;
+
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+
+    -moz-box-shadow: rgb(150,150,150) 5px 5px 10px inset;
+    -webkit-box-shadow: rgb(150,150,150) 5px 5px 10px inset;
+    box-shadow: rgb(231, 231, 231) 5px 5px 10px inset;
+    
+    background: -webkit-linear-gradient(top, #FFFFFF, #006699);
+    background: -moz-linear-gradient(top, #FFFFFF, #006699);
+    background: radial-gradient(center, circle, #FFFFFF 0%, #006699 200%);
+}
+#titulo
+{
+    font: bold 36px patillos ;
+    text-shadow: rgb(255, 255, 255) 3px 3px 3px;
+}
+@font-face {
+    font-family: 'patillos';
+    src: url(../res/STUNE.otf);
+}
+
+body {
+    background-image: url(https://th.bing.com/th/id/R.00acbc2acbfe72461b197f1c1c319a84?rik=piroKiEZBgXqxA&pid=ImgRaw&r=0.jpg);
+ background-repeat: no-repeat; 
+ background-position: center center; 
+ background-size: cover; 
+ background-attachment: fixed;
+}
